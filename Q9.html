@@ -1,0 +1,43 @@
+<!--9. Write HTML input tags snippet to show default values for all Form elements.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="color: rgb(2, 12, 27)">Form with default values</h1>
+    <form action="">
+      <label for="firstname">Name:</label><br />
+      <input type="text"id="firstname" placeholder="First Name" value="shridhar"/><br /><br />
+
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" value="shridhar.sanakar@gmail.com"placeholder="Email"/><br /><br/>
+        
+      <label for="message">Message:</label><br />
+      <text area id="message" required>Type here</textarea><br /> <br />
+
+      <label style="font-size: 1.5em; font-weight: bold">Subscribe for:</label>
+      <input type="checkbox" id="subscribe" checked />
+      <label style="font-size: 1.5em" for="subscribe">1 year ($19.95)</label>
+      <input type="checkbox" id="subscribe" />
+      <label style="font-size: 1.5em" for="subscribe">2 years ($35.00)</label><br /><br />
+      <h4>Employee Type:</h4>
+
+      <input type="radio" id="Salaried" name="employetype" checked />
+      <label for="Salaried">Salaried</label><br />
+
+      <input type="radio" id="business" name="employetype" />
+      <label for="business">Own Business</label><br /><br />
+      <label for="City">Select City</label>
+      <select name="" id="City">
+        <option value="">banglore</option>
+        <option value="">Hyderabad</option>
+        <option value="">vijayapura</option>
+      </select>
+    </form>
+    <h4><a href="http://127.0.0.1:5500/index.html">Go Back</a></h4>
+</body>
+</html>
